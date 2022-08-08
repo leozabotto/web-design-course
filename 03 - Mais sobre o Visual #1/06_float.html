@@ -1,0 +1,73 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+        <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=WKyFLRc_C0MgR70FbiKNlPoHHZPq-4M--f4vkof23OGBB7NnnOc_8QbVPA_z_6ztyyC67ytYrklPodysYJCdUY0vAcA6QIVBmkgQ7ORzmsvfeYgxlhgD95LeMbTaYtT1W8aS_UVfeM4ansE11cXOx2QlHSowIdYZYjx7UtYPHeRGOKGveke7jYS9ctEkhjI_OrycPGp4jgXsSsfpj3aRlySVniSsl4kpJkU4IK7oIte-CTg6EVSGwulYIO5bqTJJnUc4t9uakrX9YWG18cx6Bo_LDaM0obUviGfraG5zRTbVHC-og8uaGdPXOCxpR_tE1Ye_dFG4w0xR9pgsBR3obgJUo1vCyzOnTGpmEnmWXnYFIFZk0aYvPT6D5mHVcI6sS6G9Gdp2FjlAIbvxJDIXyCjRQ0TU03udXK5VjeMDiFVp057zTk_W_iIsmCkTmP5d9hXdM54nAREJpPViIaKQJ9pn-laRmCF9l3uoC4D8ktiJZIOAp6-aZMmEvL3IgMzt6-hf47mo4OXIroXhF1z6LWbczQkwXq4Hk2Qtz0isdJn88SzMv7Qlss0AvC2AKZCvA6Xp9p8dodXsFEBkE9kWjvs1TsA_e1ujISsX2EyGzl8BjxO4vwhWLcXo5KNPPg7cP-Z6TSVpVFlkJQkPpCEzAKIQ4Zc_SjuhX1Tw7FYl_MxnIu3kB1L5g1IBVWPbACUOpdrlTizGAay7ae0FtPzza06BSNpvAvOCNTZclvIpiitq3CJyDdS_JES7VpvGWFVRurddaROfTrKM501fBd2M0w" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9hdHQtYy51ZGVteWNkbi5jb20vMjAxOC0wNS0xN18xMC01Ni0zMC0yNGVjMWMyODVhNmJjNzIxNzAzYWM2ZmQxOGMwMjZlMy9vcmlnaW5hbC5odG1sP3Jlc3BvbnNlLWNvbnRlbnQtZGlzcG9zaXRpb249YXR0YWNobWVudCUzYiUyMGZpbGVuYW1lJTNkMTFfZmxvYXQuaHRtbCZFeHBpcmVzPTE2NTM2MzMzNjEmU2lnbmF0dXJlPUx1NTQ0M01FWnpIVlNNSnkyY3hGdjdsWDFHbG55MmQxMGRkbDdpU0JsTUhSMX5EZkc4UE1jRTRNQTBwRGRuN3ZhSzNkaG9jMmg1eVBiTkdsQUVkOUZSbWpSeEdrWEtWT25mcmJ0aW54UkpCbXZyZG04enRoQjhKR0I1VFNwWjg4S3R0SXBldkE3a3g2WmxseE1DcEl1OThyVkRuZC1oOHhOaXFPSDljeThpNDZUMU1Sd1cxcnZqb0wyakc4QlpxWlZaR0F4eFRxR2ZLUlY5Ni1RSWJnS0I5Wkp-bkRMWGQ4VGtXLUtZTU9Id2xDUmNLSDgzUUpJRG1IUkxSRk1TREpRakZ3VVpJQ1BBTHRZT1VhNnllcy1wUTZHN1diVm5yaW80c1VScC1BZDR3Mn5MLWhVZEJkQVdoN1U1M0hSVDY4ZWtQbkZ2c2oyRXh5UTVvS0hjVVViUV9fJktleS1QYWlyLUlkPUFQS0FJVEpWNzdXUzVaVDcyNjJB"/><style>
+            #container{
+                width: 80%;
+                padding: 15px;
+                background: #ccc;
+                overflow: auto;
+            }
+            #container div{
+                width: 90px;
+                height: 50px;
+                border: 2px solid red;
+                margin: 5px;
+                
+            }
+            #div1{
+                float: left;
+            }
+            
+            #div2{
+                float: left;
+            }
+            #div3{
+                float: left;
+            }
+            
+            header{
+                background: #ccc;
+                height: 50px;
+            }
+            nav{
+                width: 25%;
+                height: 50px;
+                background: orange;
+                float: left;
+            }
+            main{
+                width: 70%;
+                height: 100px;
+                background: yellow;
+                float: right;
+            }
+            footer{
+                height: 50px;
+                background: blue;
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>float</h1>
+        <div id="container">
+            <div id="div1">div1</div>
+            <div id="div2">div2</div>
+            <div id="div3">div3</div>            
+        </div>
+        
+        <hr>
+        
+        <header>header</header>
+        <nav>nav</nav>
+        <main>main</main>
+        <footer>footer</footer>
+    </body>
+</html>

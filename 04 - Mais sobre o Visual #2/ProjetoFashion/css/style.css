@@ -1,0 +1,129 @@
+* {
+  font-family: 'Arial';
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#principal {
+  text-align: center;
+  padding: 0px 200px;
+}
+
+.header-top {
+  background-color: #081A24;
+  text-align: center;
+  overflow: hidden;
+  padding: 20px 100px;
+}
+
+.logotipo {
+  float: left;
+}
+
+.header-nav {
+  float: right;
+}
+
+.header-nav ul {
+  margin-top: 10px;
+}
+
+.header-nav ul li {
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 15px;
+}
+
+.header-nav ul li a {
+  text-decoration: none;
+  color: #406275
+}
+
+.topo-img {
+  width: 100%;
+}
+
+.portfolio {
+  margin-top: 50px;
+}
+.portfolio h1 {
+  font-size: 30px;
+}
+
+.portfolio p {
+  margin-top: 40px;
+  padding: 0 40px;
+  color: gray;
+  line-height: 30px;
+}
+
+.gallery {
+  margin: 50px auto;
+  text-align: center;
+  width: 60%;
+  overflow: hidden;
+  clear: both;
+}
+
+.gallery-card {
+  float: left;
+  width: 32%;
+}
+
+.gallery-title {
+  margin-top: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.gallery-text {
+  margin-top: 10px;
+  color: grey;
+}
+
+.about {
+  background-color: #003D52;
+
+  background-image: url('../img/bg_detalhe.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+
+  padding: 100px;  
+  color: #fff;
+}
+
+.about h2 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 40px;
+}
+
+.about p {
+  margin-top: 40px;
+  padding-right: 700px;
+  text-align: left;
+}
+
+#contact {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#contact address {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #003B53;
+}
+
+.rodape {
+  background-color: #081A24;
+  color: #406275;
+  padding: 50px;
+  margin-top: 40px;
+  letter-spacing: 10px;
+}
